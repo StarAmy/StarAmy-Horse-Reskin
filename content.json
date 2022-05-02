@@ -1,0 +1,524 @@
+{
+    "Format": "1.20.0",
+   	"ConfigSchema": {
+        "Horse": {
+            "AllowValues": "Original, Black, Blue Roan, Red Roan, Buckskin, Palomino, Cream, Grey, Dark Chestnut, Dark Bay, Light Chestnut, Light Bay, Black Stockings, Blue Roan Stockings, Red Roan Stockings, Buckskin Stockings, Palomino Stockings, Dark Chestnut Stockings, Dark Bay Stockings, Light Chestnut Stockings, Light Bay Stockings, Black Pinto, Blue Roan Pinto, Red Roan Pinto, Buckskin Pinto, Palomino Pinto, Light Chestnut Pinto, Light Bay Pinto, Dark Chestnut Pinto, Dark Bay Pinto, Black Appaloosa, Blue Roan Appaloosa, Red Roan Appaloosa, Buckskin Appaloosa, Palomino Appaloosa, Light Bay Appaloosa, Light Chestnut Appaloosa, Dark Bay Appaloosa, Dark Chestnut Appaloosa",
+            "Default": "Original",
+        },
+ 		"HorseTack": {
+        	"AllowValues": "None, Brown, Black",
+        	"Default": "None",
+      	},
+      	"SaddleBlanket": {
+        	"AllowValues": "None, Black, White, Dark Grey, Light Grey, Brown, Red, Orange, Yellow, Light Green, Dark Green, Teal, Light Blue, Dark Blue, Purple, Pink, Magenta",
+        	"Default": "None",
+    	},
+   },
+    "Changes": [
+        {//horse colors
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/black_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Black",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/blue_roan_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Blue Roan",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/buckskin_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Buckskin",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/cream_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Cream",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_chestnut_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Dark Chestnut",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_chestnut_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Light Chestnut",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_bay_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Dark Bay",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_bay_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Light Bay",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/palomino_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Palomino",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/grey_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Grey",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/red_roan_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Red Roan",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/black_stockings_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Black Stockings",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/blue_roan_stockings_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Blue Roan Stockings",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/red_roan_stockings_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Red Roan Stockings",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/palomino_stockings_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Palomino Stockings",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/buckskin_stockings_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Buckskin Stockings",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_chestnut_stockings_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Dark Chestnut Stockings",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_bay_stockings_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Dark Bay Stockings",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_chestnut_stockings_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Light Chestnut Stockings",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_bay_stockings_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Light Bay Stockings",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/black_pinto_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Black Pinto",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/blue_roan_pinto_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Blue Roan Pinto",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/red_roan_pinto_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Red Roan Pinto",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/buckskin_pinto_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Buckskin Pinto",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/palomino_pinto_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Palomino Pinto",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_bay_pinto_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Dark Bay Pinto",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_chestnut_pinto_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Dark Chestnut Pinto",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_bay_pinto_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Light Bay Pinto",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_chestnut_pinto_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Light Chestnut Pinto",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/black_appaloosa_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Black Appaloosa",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/blue_roan_appaloosa_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Blue Roan Appaloosa",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/red_roan_appaloosa_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Red Roan Appaloosa",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/buckskin_appaloosa_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Buckskin Appaloosa",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/palomino_appaloosa_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Palomino Appaloosa",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_chestnut_appaloosa_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Light Chestnut Appaloosa",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_bay_appaloosa_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Light Bay Appaloosa",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_bay_appaloosa_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Dark Bay Appaloosa",
+         }
+        },
+         {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_chestnut_appaloosa_horse.png",
+            "PatchMode": "Replace",
+            "When": {
+                "Horse": "Dark Chestnut Appaloosa",
+         }
+        },
+        //horse tack
+		{
+			"Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/brown_tack.png",
+            "PatchMode": "Overlay",
+            "When": {
+            	"HorseTack": "Brown",
+         }
+		},
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/black_tack.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "HorseTack": "Black",
+         }
+        },//horse saddle blankets
+		{
+			"Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/black_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+            	"SaddleBlanket": "Black",
+         }
+		},
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/white_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "White",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_grey_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Dark Grey",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_grey_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Light Grey",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/brown_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Brown",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/red_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Red",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/orange_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Orange",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/yellow_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Yellow",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_green_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Light Green",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_green_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Dark Green",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/teal_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Teal",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_blue_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Light Blue",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_blue_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Dark Blue",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/purple_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Purple",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/pink_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Pink",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/magenta_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Magenta",
+         }
+        }
+	 ]
+}
